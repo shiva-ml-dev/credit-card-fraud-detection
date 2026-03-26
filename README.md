@@ -3,7 +3,7 @@
 This project is designed to detect fraudulent credit card transactions using machine learning models. 
 
 ## Features
-- Multiple models: Logistic Regression, Random Forest, XGBoost
+- Multiple models: Logistic Regression, Random Forest Classifier
 - SMOTE for handling imbalanced dataset
 - Probability-based fraud detection
 - Streamlit web application
@@ -15,7 +15,7 @@ This project is designed to detect fraudulent credit card transactions using mac
 - Pandas  
 - NumPy  
 - Scikit-learn  
-- XGBoost  
+- Random Forest
 - FastAPI  
 - Streamlit
 - 
