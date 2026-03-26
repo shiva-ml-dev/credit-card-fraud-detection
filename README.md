@@ -9,12 +9,16 @@ This project is designed to detect fraudulent credit card transactions using mac
 - Streamlit web application
 - FastAPI backend integration
 
-## Technologies
-- Python
-- Scikit-learn
-- XGBoost
-- FastAPI
+## Technologies Used
+
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- XGBoost  
+- FastAPI  
 - Streamlit
+- 
   ## 🚀 Live Demo
 
 👉 [Click here to try the app](https://credit-card-fraud-detection-nh2nruv2xnenz8f6vhdjhn.streamlit.app)
