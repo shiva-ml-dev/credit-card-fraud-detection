@@ -42,6 +42,10 @@ generated synthetic fraud samples to balance training data.
 | Frontend | Streamlit |
 | Language | Python 3 |
 
+## Architecture
+
+![Architecture](architecture.png)
+
 ## How to Run
 
 ### Backend
