@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load("fraud_model.pkl")
+model = joblib.load("backend/fraud_model.pkl")
 
 st.title("💳 Credit Card Fraud Detection")
 
