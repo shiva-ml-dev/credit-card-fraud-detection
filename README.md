@@ -1,43 +1,53 @@
-# Credit Card Fraud Detection System
+# 💳 Credit Card Fraud Detection
 
-This project is designed to detect fraudulent credit card transactions using machine learning models. 
+An end-to-end machine learning system to detect 
+fraudulent credit card transactions using 
+Random Forest and Logistic Regression.
 
-## Features
-- Multiple models: Logistic Regression, Random Forest Classifier
+## 🚀 Live Demo
+👉 [Click here to try the app](https://credit-card-fraud-detection-nh2nruv2xnenz8f6vhdjhn.streamlit.app)
+
+## ✨ Features
+- Multiple ML models: Random Forest, Logistic Regression
 - SMOTE for handling imbalanced dataset
 - Probability-based fraud detection
-- Streamlit web application
-- FastAPI backend integration
+- FastAPI backend
+- Streamlit frontend
 
-## Technologies Used
+## 🛠️ Tech Stack
+| Layer | Technology |
+|---|---|
+| ML | Scikit-learn, SMOTE |
+| Backend | FastAPI |
+| Frontend | Streamlit |
+| Language | Python |
 
-- Python  
-- Pandas  
-- NumPy  
-- Scikit-learn  
-- Random Forest
-- FastAPI  
-- Streamlit
-- 
-  ## 🚀 Live Demo
+## ⚙️ How to Run
 
-👉 [Click here to try the app](https://credit-card-fraud-detection-nh2nruv2xnenz8f6vhdjhn.streamlit.app)
-## How to Run
-
+### Backend
+```bash
 pip install -r requirements.txt
-
 uvicorn app:app --reload
+```
 
+### Frontend
+```bash
 streamlit run streamlit_app.py
+```
 
-## Input and Output
+## 📥 Input & Output
+- **Input:** 30 numerical transaction values
+- **Output:** Fraud probability + Fraud/Normal label
 
-Input:
-- 30 numerical values (comma separated)
+## 📸 Screenshots
+### UI
+![UI](ui.png)
 
-Output:
-- Fraud probability
-- Fraud or Normal transaction
+### API
+![API](api.png)
 
-## Author
-Shiva
+### Prediction
+![Prediction](prediction.png)
+
+## 👤 Author
+**Shiva** | [GitHub](https://github.com/shiva-ml-dev)
