@@ -5,7 +5,7 @@ import numpy as np
 app = FastAPI()
 
 # model load
-model = joblib.load("fraud_model.pkl")
+model = joblib.load("model/fraud_model.pkl")
 
 @app.get("/")
 def home():
