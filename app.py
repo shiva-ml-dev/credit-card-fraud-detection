@@ -1,17 +1,12 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
-from typing import List
 import joblib
 import numpy as np
+from typing import List
 
 app = FastAPI()
 
 # Load model
 model = joblib.load("model/fraud_model.pkl")
-
-# Input schema (IMPORTANT)
-class InputData(BaseModel):
-    data: List[float]
 
 # Home route
 @app.get("/")
@@ -20,14 +15,21 @@ def home():
 
 # Prediction API
 @app.post("/predict")
-def predict(input: InputData):
-    data = np.array(input.data).reshape(1, -1)
+def predict(data: List[float]):
+    try:
+        # Convert to numpy array
+        data = np.array(data).reshape(1, -1)
 
-    prediction = model.predict(data)[0]
+        # Prediction
+        prediction = model.predict(data)[0]
 
-    if prediction == 1:
-        result = "Fraud Transaction 🚨"
-    else:
-        result = "Normal Transaction 🟩"
+        # Result
+        if prediction == 1:
+            result = "Fraud Transaction 🚨"
+        else:
+            result = "Normal Transaction ✅"
 
-    return {"prediction": result}
+        return {"prediction": result}
+
+    except Exception as e:
+        return {"error": str(e)}
