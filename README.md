@@ -172,16 +172,9 @@ Open: http://127.0.0.1:8000/docs
 ---
 
 📸 Screenshots
+![Normal](https://raw.githubusercontent.com/shiva-ml-dev/credit-card-fraud-detection/main/assets/images/normal_prediction.png)
 
-## 🟢 Normal Transaction
-![Normal](assets/images/normal_prediction.png)
-
----
-
-## 🔴 Fraud Transaction
-![Fraud](assets/images/fraud_prediction.png)
-
-Testing images display
+![Fraud](https://raw.githubusercontent.com/shiva-ml-dev/credit-card-fraud-detection/main/assets/images/fraud_prediction.png)
 ---
 
 📌 Future Improvements
