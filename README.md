@@ -1,75 +1,108 @@
-# Credit Card Fraud Detection
+💳 Credit Card Fraud Detection
 
-An end-to-end machine learning system to detect fraudulent
-credit card transactions from a highly imbalanced dataset.
+An end-to-end Machine Learning project to detect fraudulent credit card transactions using a trained Random Forest model. This project includes model training, API deployment using FastAPI, and a simple UI using Streamlit.
 
-## Live Demo
-[Click here to try the app](https://credit-card-fraud-detection-nh2nruv2xnenz8f6vhdjhn.streamlit.app)
+---
 
-## Problem Statement
-Real-world fraud data is extremely imbalanced — only 492
-fraud cases out of 284,807 transactions (0.17%).
-Standard models fail on such data. This project solves
-that using SMOTE oversampling.
+🚀 Live Demo
 
-## Model Performance (Random Forest)
-| Metric | Score |
-|---|---|
-| Overall Accuracy | 99.88% |
-| Fraud Recall | 88% |
-| Fraud Precision | 60% |
-| Fraud F1-Score | 71% |
-| Macro Avg F1 | 86% |
+🔗 FastAPI Docs:
+https://credit-card-fraud-detection-6-qmw2.onrender.com/docs
 
-High recall (88%) is critical in fraud detection —
-missing a fraud is costlier than a false alarm.
+🔗 API Base URL:
+https://credit-card-fraud-detection-6-qmw2.onrender.com
 
-## Class Imbalance Handling
-| | Normal | Fraud |
-|---|---|---|
-| Before SMOTE | 227,451 | 394 |
-| After SMOTE | 227,451 | 227,451 |
+---
 
-SMOTE (Synthetic Minority Oversampling Technique)
-generated synthetic fraud samples to balance training data.
+🧠 Model Details
 
-## Tech Stack
-| Layer | Technology |
-|---|---|
-| ML Model | Random Forest (n_estimators=100, max_depth=12) |
-| Oversampling | SMOTE |
-| Backend | FastAPI |
-| Frontend | Streamlit |
-| Language | Python 3 |
+- Algorithm: Random Forest Classifier
+- Problem Type: Binary Classification (Fraud / Normal)
+- Dataset: Highly imbalanced credit card transactions
+- Features: 29 input features
 
-## Architecture
+---
 
-![Architecture](architecture.png)
+⚙️ Tech Stack
 
-## How to Run
+- Python
+- FastAPI
+- Streamlit
+- Scikit-learn
+- Uvicorn
+- Render (Deployment)
 
-### Backend
-```bash
+---
+
+📦 Features
+
+- 🔍 Real-time fraud prediction
+- ⚡ FastAPI backend for inference
+- 🌐 Deployed on cloud (Render)
+- 🖥️ Streamlit UI for easy testing
+- 📊 Handles imbalanced dataset
+
+---
+
+📡 API Usage
+
+Endpoint:
+
+POST "/predict"
+
+Request Body:
+
+{
+  "data": [0.1, -1.2, 0.5, 1.3, ..., 150.0]
+}
+
+👉 Note: Input must contain 29 features
+
+---
+
+Response:
+
+{
+  "prediction": "Fraud Transaction"
+}
+
+OR
+
+{
+  "prediction": "Normal Transaction"
+}
+
+---
+
+🖥️ Run Locally
+
+git clone https://github.com/your-username/credit-card-fraud-detection.git
+cd credit-card-fraud-detection
+
 pip install -r requirements.txt
+
 uvicorn app:app --reload
-```
 
-### Frontend
-```bash
-streamlit run streamlit_app.py
-```
+Open: http://127.0.0.1:8000/docs
 
-## Input and Output
-- Input: 30 PCA-transformed transaction features
-- Output: Fraud or Normal transaction label
+---
 
-## Screenshots
-### UI
-![UI](ui.png)
-### API
-![API](api.png)
-### Prediction
-![Prediction](prediction.png)
+📸 Screenshots
 
-## Author
-Shiva | https://github.com/shiva-ml-dev
+(Add screenshots here later)
+
+---
+
+📌 Future Improvements
+
+- Add model monitoring
+- Add authentication
+- Improve UI design
+- Use Docker for deployment
+
+---
+
+🙌 Author
+
+Shiva
+Machine Learning Enthusiast 🚀
