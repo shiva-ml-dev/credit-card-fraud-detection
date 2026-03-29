@@ -133,13 +133,13 @@ Open: http://127.0.0.1:8000/docs
 
 ### 🟢 Normal Transaction
 
-<img src="assets/images/normal_prediction.png" width="700"/>
+<img src="./assets/images/normal_prediction.png" width="700"/>
 
 ---
 
 ### 🔴 Fraud Transaction
 
-<img src="assets/images/fraud_prediction.png" width="700"/>
+<img src="./assets/images/fraud_prediction.png" width="700"/>
 
 ---
 
