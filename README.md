@@ -1,6 +1,17 @@
-💳 Credit Card Fraud Detection
+# 💳 Credit Card Fraud Detection
 
-An end-to-end Machine Learning project to detect fraudulent credit card transactions using a trained Random Forest model. This project includes model training, API deployment using FastAPI, and a simple UI using Streamlit.
+![Python 3. 10](https://img.shields.io/badge/Python-3.10-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![Deployment](https://img.shields.io/badge/Render-Deployed-success)
+
+---
+
+## 📌 Project Highlights
+
+- End-to-end ML project (Training → Deployment)
+- Real-time fraud detection API
+- Deployed using FastAPI on Render
+- Includes Streamlit UI for testing
 
 ---
 
@@ -44,19 +55,32 @@ https://credit-card-fraud-detection-6-qmw2.onrender.com
 
 ---
 
-📡 API Usage
+## 🧪 API Usage
 
 Endpoint:
 
-POST "/predict"
+POST /predict
 
 Request Body:
 
 {
-  "data": [0.1, -1.2, 0.5, 1.3, ..., 150.0]
+  "data": [0.1, -1.2, 0.5, 1.3, ... ,150.0]
 }
 
 👉 Note: Input must contain 29 features
+
+---
+
+## 🧪 Example Input
+
+```json
+{
+  "data": [
+    0.1, -1.2, 0.5, 1.3, -0.7, 0.9, -0.2, 0.4, -1.1, 0.3,
+    0.8, -0.6, 1.0, -0.9, 0.2, 0.7, -0.3, 0.6, -1.4, 0.1,
+    0.5, -0.5, 1.2, -0.4, 0.9, 0.3, -0.2, 0.7, 150.0
+  ]
+}
 
 ---
 
@@ -76,7 +100,7 @@ OR
 
 🖥️ Run Locally
 
-git clone https://github.com/your-username/credit-card-fraud-detection.git
+git clone https://github.com/shiva-ml-dev/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
 
 pip install -r requirements.txt
@@ -102,7 +126,7 @@ Open: http://127.0.0.1:8000/docs
 
 ---
 
-🙌 Author
+## 🙌 Author
 
-Shiva
-Machine Learning Enthusiast 🚀
+Shiva  
+Machine Learning Engineer (Aspiring) 🚀
