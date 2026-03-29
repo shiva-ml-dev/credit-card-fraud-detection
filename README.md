@@ -4,6 +4,8 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
 ![Deployment](https://img.shields.io/badge/Render-Deployed-success)
 
+A machine learning project to detect fraudulent credit card transactions using XGBoost and Random Forest, handling class imbalance with SMOTE.
+
 ---
 
 ## 📌 Project Highlights
