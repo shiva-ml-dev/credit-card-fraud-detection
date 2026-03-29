@@ -131,7 +131,17 @@ Open: http://127.0.0.1:8000/docs
 
 📸 Screenshots
 
-(Add screenshots here later)
+## 📊 Example Outputs
+
+### 🟢 Normal Transaction
+
+![Normal](assets/images/normal_prediction.png)
+
+---
+
+### 🔴 Fraud Transaction
+
+![Fraud](assets/images/fraud_prediction.png)
 
 ---
 
