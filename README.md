@@ -84,17 +84,21 @@ Request Body:
            0.8, -0.6, 1.0, -0.9, 0.2, 0.7, -0.3, 0.6, -1.4, 0.1,
            0.5, -0.5, 1.2, -0.4, 0.9, 0.3, -0.2, 0.7, 50.0]
 }
+```
 
 **Output:**
-
+```json
 {
   "prediction": "Normal Transaction ✅"
 }
+```
 
-### ✅ Fraud Transaction
+---
+
+### 🚨 Fraud Transaction
 
 **Input:**
-
+```json
 {
   "data": [-1.27, 2.46, -2.85, 2.32, -1.37,
            -0.94, -3.06, 1.16, -2.26, -4.88,
@@ -103,12 +107,51 @@ Request Body:
            0.65, -0.08, -0.22, -0.52, 0.22,
            0.75, 0.63, 0.25, 0.01]
 }
+```
 
 **Output:**
-
+```json
 {
   "prediction": "Fraud Transaction 🚨"
 }
+```
+```
+
+
+---
+
+🖥️ Run Locally
+
+git clone https://github.com/shiva-ml-dev/credit-card-fraud-detection.git
+cd credit-card-fraud-detection
+
+pip install -r requirements.txt
+
+uvicorn app:app --reload
+
+Open: http://127.0.0.1:8000/docs
+
+---
+
+📸 Screenshots
+
+(Add screenshots here later)
+
+---
+
+📌 Future Improvements
+
+- Add model monitoring
+- Add authentication
+- Improve UI design
+- Use Docker for deployment
+
+---
+
+## 🙌 Author
+
+Shiva  
+Machine Learning Engineer (Aspiring) 🚀
 
 ---
 
