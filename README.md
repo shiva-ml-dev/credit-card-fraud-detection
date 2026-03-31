@@ -146,8 +146,6 @@ Improve UI design
 
 Use Docker for deployment
 
-
-
 ---
 
 🙌 Author
