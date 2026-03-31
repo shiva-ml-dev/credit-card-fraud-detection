@@ -150,7 +150,12 @@ Use Docker for deployment
 
 ---
 
-🙌 Author
+## 🙌 Author  
 
-Shiva
-Machine Learning Engineer (Aspiring) 🚀
+**Shivashankar**  
+Machine Learning Engineer (Aspiring) 🚀  
+
+🔗 GitHub: https://github.com/shiva-ml-dev  
+🔗 LinkedIn: https://www.linkedin.com/in/shivashankar-kakanale-2a337329a  
+
+📧 Email: Kakanaleshivashankar0@gmail.com
