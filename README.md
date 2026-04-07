@@ -2,10 +2,10 @@
 
 A machine learning project to detect fraudulent credit card transactions using Random Forest, handling class imbalance with SMOTE.
 
-"Python" (https://img.shields.io/badge/Python-3.10-blue)
-"FastAPI" (https://img.shields.io/badge/FastAPI-Backend-green)
-"Streamlit" (https://img.shields.io/badge/Streamlit-UI-red)
-"Render" (https://img.shields.io/badge/Deploy-Render-purple)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-UI-red)
+![Render](https://img.shields.io/badge/Deploy-Render-purple)
 
 ---
 
