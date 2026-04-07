@@ -19,13 +19,11 @@ Includes Streamlit UI for testing
 
 ---
 
-🚀 Live Demo
+## 🚀 Live Demo
 
-🔗 FastAPI Docs:
-https://credit-card-fraud-detection-6-qmw2.onrender.com/docs
-
-🔗 API Base URL:
-https://credit-card-fraud-detection-6-qmw2.onrender.com
+- 🔗 FastAPI Docs: https://credit-card-fraud-detection-6-qmw2.onrender.com/docs  
+- 🔗 API Base URL: https://credit-card-fraud-detection-6-qmw2.onrender.com  
+- 🎯 Streamlit App: https://credit-card-fraud-detection-nh2nruv2xnenz8f6vhdjhn.streamlit.app
 
 
 ---
