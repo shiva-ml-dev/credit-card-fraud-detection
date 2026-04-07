@@ -122,15 +122,13 @@ uvicorn app:app --reload
 
 ---
 
-## 📸 Screenshots  
+## 🖥️ Streamlit UI
 
-### 🟢 Normal Transaction  
-![Normal](https://raw.githubusercontent.com/shiva-ml-dev/credit-card-fraud-detection/main/assets/images/normal_prediction.png)
+### ✅ Normal Transaction
+![Normal](assets/images/streamlit_normal.png)
 
----
-
-### 🔴 Fraud Transaction  
-![Fraud](https://raw.githubusercontent.com/shiva-ml-dev/credit-card-fraud-detection/main/assets/images/fraud_prediction.png)
+### 🚨 Fraud Transaction
+![Fraud](assets/images/streamlit_fraud.png)
 
 ---
 
