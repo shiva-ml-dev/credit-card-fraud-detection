@@ -72,9 +72,9 @@ Use this sample input in "/predict" endpoint:
 
 ---
 
-🧱 Architecture
+## 🏗️ Architecture
 
-User → Streamlit UI → FastAPI → ML Model → Prediction
+User → Streamlit UI → FastAPI Backend → ML Model → Prediction Result
 
 ---
 
