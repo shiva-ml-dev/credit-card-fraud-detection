@@ -1,5 +1,7 @@
 💳 Credit Card Fraud Detection
 
+🚀 Deployed ML system with real-time API + interactive UI
+
 A machine learning project to detect fraudulent credit card transactions using Random Forest, handling class imbalance with SMOTE.
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -103,7 +105,7 @@ uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 
 ---
 
-🖥️ Streamlit UI
+🖥️ Streamlit UI Demo
 
 ### 🟢 Normal Transaction Prediction
 
