@@ -105,13 +105,13 @@ uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 
 🖥️ Streamlit UI
 
-🟢 Normal Transaction Prediction
+### 🟢 Normal Transaction Prediction
 
-"Normal" (https://raw.githubusercontent.com/shiva-ml-dev/credit-card-fraud-detection/main/assets/images/streamlit_normal.png)
+![Normal](https://raw.githubusercontent.com/shiva-ml-dev/credit-card-fraud-detection/main/assets/images/streamlit_normal.png)
 
-🔴 Fraud Transaction Prediction
+### 🔴 Fraud Transaction Prediction
 
-"Fraud" (https://raw.githubusercontent.com/shiva-ml-dev/credit-card-fraud-detection/main/assets/images/streamlit_fraud.png)
+![Fraud](https://raw.githubusercontent.com/shiva-ml-dev/credit-card-fraud-detection/main/assets/images/streamlit_fraud.png)
 
 ---
 
